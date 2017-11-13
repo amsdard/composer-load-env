@@ -1,0 +1,19 @@
+{
+  "name": "amsdard/composer-load-env",
+  "description": "Simple handler to inject custom environment variables into composer scripts by load defined ENV files",
+  "require": {
+    "symfony/dotenv": "^3.3"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Krzysztof Kabala",
+      "email": "krzysztof.kabala@amsterdam-standard.pl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  }
+}
