@@ -31,7 +31,7 @@ composer require amsdard/composer-load-env
     ...
     "scripts": {
         "load-env-files": [
-            "Amsdard\Component\\EnvHandler::loadEnvFiles"
+            "Amsdard\\Component\\EnvHandler::loadEnvFiles"
         ],
     },
     ...
